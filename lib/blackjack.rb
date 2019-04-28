@@ -31,9 +31,9 @@ end
 def hit? (total)
   prompt_user
   if get_user_input == "h"
-    new_total = total + deal_card
+    total = total + deal_card
   end
-  new_total
+  total
 end
 
 def invalid_command
@@ -51,5 +51,5 @@ def runner
   while hit? (total) < 21
     puts display_card_total(total)
   end
-end_game (new_total)
+end_game (total)
 end
