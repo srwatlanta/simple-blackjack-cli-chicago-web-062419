@@ -51,5 +51,5 @@ def runner
   while hit? (total) < 21
     puts display_card_total(total)
   end
-end_game (total)
+end_game (new_total)
 end
