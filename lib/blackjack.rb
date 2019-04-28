@@ -1,9 +1,9 @@
 def welcome
-  puts "Welcome to the Blackjack table"
+  prints "Welcome to the Blackjack table"
 end
 
 def deal_card
-  puts Random.rand(1..11)
+  Random.rand(1..11)
 end
 
 def display_card_total
