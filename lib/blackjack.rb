@@ -31,7 +31,7 @@ end
 
 def hit?(current_total)
   prompt_user
-  imput = get_user_input
+  input = get_user_input
   if input == "h"
     current_total += deal_card
   end
