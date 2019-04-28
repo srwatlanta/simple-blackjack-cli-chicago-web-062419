@@ -51,3 +51,4 @@ def runner
   while hit?(total) < 21
   end_game(total)
 end
+end
