@@ -46,7 +46,7 @@ end
 
 def runner
   welcome
-  initial_round = total
+  total = initial_round
   while hit? (total) < 21
     puts display_card_total(total)
   end
