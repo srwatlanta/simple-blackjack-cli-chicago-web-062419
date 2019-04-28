@@ -47,7 +47,7 @@ end
 def runner
   welcome
   initial_round
-  while hit?(total) < 21
-  end_game(total)
+  while hit?(initial_round) < 21
+  end_game(hit?)
 end
 end
