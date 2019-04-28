@@ -47,10 +47,10 @@ end
 
 def runner
   welcome
-  total = initial_round
-  display_card_total (total)
-  until hit?(total) > 21
-    puts display_card_total(total)
+  hand = initial_round
+  until hand > 21 do
+    hand = hit?(hand)
+    display_card_total(hand)
   end
-end_game(total)
+end_game(hand)
 end
