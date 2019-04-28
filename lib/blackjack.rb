@@ -31,7 +31,7 @@ end
 def hit? (total)
   prompt_user
   if get_user_input == "h"
-    total = total + deal_card
+    new_total = total + deal_card
   end
   total
 end
